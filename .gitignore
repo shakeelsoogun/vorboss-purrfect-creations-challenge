@@ -340,3 +340,6 @@ sketch
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,node,react
+
+# Experiment data
+data.json
