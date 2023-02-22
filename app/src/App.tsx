@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import "./App.css";
 import Metrics from "./Metrics";
+import OrdersBox from "./OrdersBox";
 
 const Header = styled.h1`
   color: ${({ theme }) => theme.textColor};
@@ -22,7 +23,7 @@ const App = () => {
       </Nav>
       <main>
         <Metrics />
-        <div className="details"></div>
+        <OrdersBox />
       </main>
     </div>
   );

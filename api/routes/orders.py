@@ -21,6 +21,7 @@ def get_orders():
         sort_order = None
 
     data = get_data(request_limit, sort=sort_order)
+    data = [{**x, "full_name": f"{x['first_name']} {x['last_name']}"} for x in data]
 
     return jsonify(data)
 

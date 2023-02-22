@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Box from "./Box";
+import Subheader from "./SubHeader";
 
 const MetricBoxContainer = styled(Box)`
   flex: 1;
@@ -25,12 +26,7 @@ const MetricContainer = styled.div`
   flex-direction: column;
 `;
 
-const BoxHeader = styled.h3`
-  margin-top: 0;
-  color: ${({ theme }) => theme.backgroundColor};
-  font-size: 1em;
-  text-transform: uppercase;
-  font-weight: 400;
+const BoxHeader = styled(Subheader)`
   flex: 1;
 `;
 

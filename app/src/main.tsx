@@ -10,8 +10,8 @@ const theme: DefaultTheme = {
   boxColor: "#ffffff",
   primaryColors: {
     blue: "#4e7cff",
-    purple: "7033ff",
-    orange: "f65164",
+    purple: "#7033ff",
+    orange: "#f65164",
   },
 };
 
