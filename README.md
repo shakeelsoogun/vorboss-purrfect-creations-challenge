@@ -23,6 +23,9 @@ While this is an internal tool for Alice and doesn't need to win any design awar
 
 For ease of development and deployment we would like the application to be containerised using Docker.
 
+## The final product
+![The final product screenshot](dashboard.png?raw=true)
+
 ## How to run
 
 A Dockerfile has been provided to run the backend and serve the frontend. To run it:
