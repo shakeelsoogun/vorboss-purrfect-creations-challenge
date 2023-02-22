@@ -5,4 +5,4 @@ app = Flask(__name__)
 CORS(app)
 
 
-from .routes import order_metrics, orders
+from routes import order_metrics, orders

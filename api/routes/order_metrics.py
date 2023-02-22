@@ -3,8 +3,8 @@ from math import floor
 
 from flask import jsonify
 
-from ..airtable_api import get_data
-from ..api import app
+from airtable_api import get_data
+from api import app
 
 
 @app.get("/order/metric")

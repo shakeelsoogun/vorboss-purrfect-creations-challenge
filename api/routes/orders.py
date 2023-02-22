@@ -1,7 +1,7 @@
 from flask import abort, jsonify, make_response, request
 
-from ..api import app
-from ..airtable_api import get_data
+from api import app
+from airtable_api import get_data
 
 
 @app.get("/order")
